@@ -17,7 +17,7 @@ const MovieForm = ({onSearchTitle}) => {
                     <h2>BUSCA TUS PELICULAS FAVORITAS</h2>
                     <Input value={searchValue} onChange={(e)=>setSearchValue(e.target.value)} style={{width: 350}} size="large" placeholder="Título de la pelicula"
                            prefix={<VideoCameraOutlined/>}/>
-                    <Button type="primary" onClick={searchTitle} icon={<SearchOutlined/>}/>
+                    <Button type='primary' onClick={searchTitle} icon={<SearchOutlined/>}/>
                 </div>
             </Col>
         </Row>
