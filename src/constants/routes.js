@@ -5,5 +5,4 @@ const Routes = {
     ABOUT: '/nosotros',
     MOVIES: '/peliculas'
 }
-
 export default Routes;
